@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+header {
+    width: 900px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 120px;
+    background-color: rgb(177, 237, 248);
+}
+header h1 {
+    background-color: rgb(177, 237, 248);
+}
+#container {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+}
+#nav {
+    border: 1px solid red;
+    height: 200px;
+    flex-grow: 1;
+    text-align: center;
+}
+#box {
+    border: 1px solid red;
+    height: 200px; 
+    flex-grow: 1;
+}
