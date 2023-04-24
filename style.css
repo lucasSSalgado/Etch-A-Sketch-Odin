@@ -1,33 +1,67 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input {
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+input[type="submit"]:hover {
+    background-color: aquamarine;
+}
+h5 {
+    font-size: 1.2rem;
 }
 header {
-    width: 900px;
+    width: 1080px;
     height: 150px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 15px;
     line-height: 120px;
-    background-color: rgb(177, 237, 248);
+    background-color: rgb(10, 46, 52);
 }
 header h1 {
-    background-color: rgb(177, 237, 248);
+    background-color: rgb(10, 46, 52);
+    color: aliceblue;
+    font-size: 4rem;
 }
 #container {
-    display: flex;
-    width: 900px;
+    width: 1080px;
     height: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 #nav {
-    border: 1px solid red;
-    height: 200px;
-    flex-grow: 1;
+    float: left;
+    width: 350px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#nav h2 {
+    margin: 20px 0;
     text-align: center;
 }
 #box {
-    border: 1px solid red;
-    height: 200px; 
-    flex-grow: 1;
+    float: right;
+    width: 680px;
+    height: 570px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#draw {
+    width: 680px;
+    height: 570px;
+    border-radius: 5px;
+    margin: auto;
+    display: grid;
+}
+.drawing-divs {
+    
+}
+.black {
+    background-color: black;
 }

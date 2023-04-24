@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
     <title>Etch-A-Sketch</title>
 </head>
 <body>
     <!-- Begining of the header -->
     <header id="header">
-        <h1>Etch-A-Sketch Game, having fun</h1>
+        <h1>Etch-A-Sketch Game</h1>
     </header>
 
     <!-- Begining of the container -->
     <div id="container">
         <!-- Right side of the nav -->
         <nav id="nav">
-            <h2>Click with the left botton of the mouse to draw, having fun</h2>
-            <input>
+            <h2>Configurations</h2>
+            <div id="options">  
+                <h5>Size of the Box</h5>
+                <input id="range" type="text" placeholder="MAX - 100">    
+                <h5>Erase</h5>
+                <input id="erase" type="submit" value="Erase">
+                <h5>Clear</h5>          
+                <input id="clear" type="submit" value="Clear"> 
+            </div>
         </nav>
 
         <!-- Left side of the nav, drawing area -->
         <div id="box">
-            
+            <div id="draw"></div>             
         </div>
     </div>
 </body>
