@@ -36,6 +36,7 @@ header h1 {
     width: 1080px;
     height: 600px;
     margin: 30px auto;
+    margin-bottom: 0;
 }
 #nav {
     float: left;
@@ -68,6 +69,6 @@ header h1 {
 footer {
     text-align: center;
     clear: both;
-    margin: 10px auto;	
-
+    padding-bottom: 20px;
+    margin: 0 auto;	
 }

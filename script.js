@@ -7,7 +7,12 @@ var rgbActive = false
 // listen the rainbow button, if it is true change to false and vice-versa
 rainbow.addEventListener('click', () => {
     rgbActive = !rgbActive
-    console.log(rgbActive)
+    if (rgbActive) {
+        rainbow.style.backgroundColor = 'aquamarine'
+    }
+    else {
+        rainbow.style.backgroundColor = 'white'
+    }
     mapDivs()
 })
 
