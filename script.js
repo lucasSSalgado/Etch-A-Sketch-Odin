@@ -26,6 +26,7 @@ range.addEventListener('change', () => {
     }
 
     destroyGrid()
+    
     for (let i = 0; i < range.value * range.value; i++) {
         let div = document.createElement('div')
         div.classList.add('drawing-divs')   
